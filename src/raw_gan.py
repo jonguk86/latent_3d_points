@@ -10,7 +10,7 @@ import tensorflow as tf
 from tflearn import is_training
 
 from . gan import GAN
-from .. fundamentals.layers import safe_log
+from . tf_utils import safe_log
 
 
 class RawGAN(GAN):
